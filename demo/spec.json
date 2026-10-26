@@ -1,0 +1,289 @@
+{
+ "contract": ".pptx-style/messy/contract.json",
+ "slides": [
+  {
+   "layout": "Címdia",
+   "fill": {
+    "title": "Field operations review",
+    "subtitle": "Quarterly update"
+   }
+  },
+  {
+   "layout": "Agenda",
+   "fill": {
+    "title": "Agenda",
+    "body": "01",
+    "body2": "Topic A in brief",
+    "body3": "02",
+    "body4": "Topic B in brief",
+    "body5": "03",
+    "body6": "Topic C in brief",
+    "body7": "04",
+    "body8": "Topic D in brief",
+    "body9": "05",
+    "body10": "Topic E in brief"
+   },
+   "notes": "Speaker notes for slide 2: say why it matters."
+  },
+  {
+   "layout": "Section Header",
+   "fill": {
+    "title": "Where we are",
+    "body": "Context and numbers"
+   }
+  },
+  {
+   "layout": "Title and Content",
+   "fill": {
+    "title": "Demand doubled in two regions",
+    "body": [
+     "North grew fastest",
+     "South steady",
+     "Capacity is the constraint"
+    ]
+   },
+   "notes": "Speaker notes for slide 4: say why it matters."
+  },
+  {
+   "pattern": "key-numbers",
+   "fill": {
+    "title": "Three numbers that matter",
+    "t1": "Source: internal tracker",
+    "g1": [
+     {
+      "t1": "2x",
+      "t2": "orders"
+     },
+     {
+      "t1": "14 d",
+      "t2": "lead time"
+     },
+     {
+      "t1": "93%",
+      "t2": "on-time rate"
+     }
+    ]
+   },
+   "notes": "Speaker notes for slide 5: say why it matters."
+  },
+  {
+   "pattern": "three-ways-we-help",
+   "fill": {
+    "t1": "Three levers",
+    "g1": [
+     {
+      "t1": "Hire",
+      "t2": "Add a second shift."
+     },
+     {
+      "t1": "Automate",
+      "t2": "Pick-to-light in hall B."
+     }
+    ]
+   },
+   "notes": "Speaker notes for slide 6: say why it matters."
+  },
+  {
+   "layout": "Two Content",
+   "fill": {
+    "title": "Options side by side",
+    "body": [
+     "Build in-house",
+     "Slower start"
+    ],
+    "body2": [
+     "Partner",
+     "Faster, less control"
+    ]
+   },
+   "notes": "Speaker notes for slide 7: say why it matters."
+  },
+  {
+   "pattern": "option-comparison",
+   "fill": {
+    "title": "Partner wins on speed",
+    "tbl1": [
+     [
+      "Criterion",
+      "In-house",
+      "Partner"
+     ],
+     [
+      "Speed",
+      "",
+      ""
+     ],
+     [
+      "Cost",
+      "",
+      ""
+     ],
+     [
+      "Risk",
+      "",
+      ""
+     ]
+    ],
+    "mark18": null
+   },
+   "notes": "Speaker notes for slide 8: say why it matters."
+  },
+  {
+   "layout": "Section Header",
+   "fill": {
+    "title": "The plan",
+    "body": "Four quarters"
+   }
+  },
+  {
+   "pattern": "timeline",
+   "fill": {
+    "title": "Rollout over four quarters",
+    "tbl1": [
+     [
+      "Stream",
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4"
+     ],
+     [
+      "Pilot",
+      "",
+      "",
+      "",
+      ""
+     ],
+     [
+      "Scale",
+      "",
+      "",
+      "",
+      ""
+     ],
+     [
+      "Run",
+      "",
+      "",
+      "",
+      ""
+     ]
+    ],
+    "bar1": {
+     "row": 2,
+     "from": 2,
+     "to": 2
+    },
+    "bar2": {
+     "row": 3,
+     "from": 3,
+     "to": 4
+    },
+    "bar3": {
+     "row": 4,
+     "from": 5,
+     "to": 5
+    }
+   },
+   "notes": "Speaker notes for slide 10: say why it matters."
+  },
+  {
+   "layout": "Title and Content",
+   "fill": {
+    "title": "Risks we are watching",
+    "body": [
+     "Hiring lead time",
+     "Vendor lock-in",
+     {
+      "text": "Exit clause negotiated",
+      "level": 1
+     }
+    ]
+   },
+   "notes": "Speaker notes for slide 11: say why it matters."
+  },
+  {
+   "layout": "Title Only",
+   "fill": {
+    "title": "Budget is unchanged"
+   },
+   "notes": "Speaker notes for slide 12: say why it matters."
+  },
+  {
+   "pattern": "key-numbers",
+   "fill": {
+    "title": "What success looks like",
+    "t1": "Targets for Q4",
+    "g1": [
+     {
+      "t1": "<10 d",
+      "t2": "lead time"
+     },
+     {
+      "t1": "97%",
+      "t2": "on time"
+     }
+    ]
+   },
+   "notes": "Speaker notes for slide 13: say why it matters."
+  },
+  {
+   "layout": "Title and Content",
+   "fill": {
+    "title": "Decisions needed today",
+    "body": [
+     "Approve the partner pilot",
+     "Release hiring budget"
+    ]
+   },
+   "notes": "Speaker notes for slide 14: say why it matters."
+  },
+  {
+   "pattern": "three-ways-we-help",
+   "fill": {
+    "t1": "Next steps",
+    "g1": [
+     {
+      "t1": "Week 1",
+      "t2": "Sign the pilot."
+     },
+     {
+      "t1": "Week 2",
+      "t2": "Start hiring."
+     },
+     {
+      "t1": "Week 4",
+      "t2": "First review."
+     }
+    ]
+   },
+   "notes": "Speaker notes for slide 15: say why it matters."
+  },
+  {
+   "layout": "Title and Content",
+   "fill": {
+    "title": "Appendix: method",
+    "body": [
+     "Data from the order tracker",
+     "Q1-Q3 actuals"
+    ]
+   },
+   "notes": "Speaker notes for slide 16: say why it matters."
+  },
+  {
+   "layout": "Title Only",
+   "fill": {
+    "title": "Questions"
+   },
+   "notes": "Speaker notes for slide 17: say why it matters."
+  },
+  {
+   "layout": "Címdia",
+   "fill": {
+    "title": "Thank you",
+    "subtitle": "ops-team@example.org"
+   }
+  }
+ ],
+ "output": "ops-review.pptx"
+}

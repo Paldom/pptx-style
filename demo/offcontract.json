@@ -1,0 +1,24 @@
+{
+ "contract": ".pptx-style/messy/contract.json",
+ "output": "neon.pptx",
+ "slides": [
+  {
+   "layout": "Title Only",
+   "fill": {
+    "title": "Results",
+    "color": "FF10F0",
+    "font": "Comic Sans MS"
+   }
+  },
+  {
+   "layout": "Title Only",
+   "fill": {
+    "title": "Legal"
+   },
+   "textbox": {
+    "text": "Disclaimer",
+    "y": "footer"
+   }
+  }
+ ]
+}

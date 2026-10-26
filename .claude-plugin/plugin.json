@@ -1,0 +1,11 @@
+{
+  "name": "pptx-style",
+  "description": "Agent skills that profile any PowerPoint template into a machine-checkable style contract, then keep new or edited .pptx decks inside it: layouts, sample-slide patterns, theme, fit and render QA.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Paldom",
+    "url": "https://github.com/Paldom"
+  },
+  "homepage": "https://github.com/Paldom/pptx-style",
+  "license": "MIT"
+}

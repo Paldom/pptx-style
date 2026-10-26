@@ -1,0 +1,140 @@
+{
+  "skill": "pptx-style-build",
+  "cases": [
+    {
+      "type": "should_trigger",
+      "prompt": "make a 15-slide deck in our company template from these notes"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "add 3 slides to quarterly.pptx that match the existing template slides"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "fill the timeline sample slide from our template with these milestones"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "continue this deck in the same template, add a roadmap slide"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "update slide 4 of the board deck and leave every other slide untouched"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "use the style contract to generate the onboarding presentation"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "turn this outline into slides using template.potx, with speaker notes"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "pls make slides w/ our brand pptx template, no freestyle design"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "build the pptx deck from spec.json on the template's real layouts"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "the text overflows on the template slides we generated, fix it and re-render"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "check whether board.pptx still follows our template"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "put these KPIs into the tiles slide from the style contract"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "analyse this PowerPoint template and write its style contract"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "did the new template version break any layouts?"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "make me a beautiful pitch deck, any style is fine"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "create an HTML slide deck with reveal.js"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "convert slides.pptx to PDF"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "write an Apps Script that edits Google Slides"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "make an Excel chart from this CSV"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "design a new master with extra layouts for the template"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "summarise what this deck says in five bullets"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "turn my Keynote .key file into a pptx"
+    },
+    {
+      "type": "quality",
+      "prompt": "build an 18-slide strategy deck in templates/messy.potx from outline.md",
+      "expected_behavior": [
+        "verifies the template against its contract first (profiling it if no contract exists) and stops on breaking drift",
+        "writes an outline whose titles alone tell the story, then a JSON spec mapping each slide to a contract layout or pattern",
+        "builds a two-slide preview and waits for approval before the full deck (or self-approves and says so when unattended)",
+        "uses at least three cloned sample-slide patterns, speaker notes on every content slide, and reports 0 lint errors",
+        "renders the deck when LibreOffice exists and reviews the contact sheet, labelling it APPROXIMATE if a theme font is missing"
+      ]
+    },
+    {
+      "type": "quality",
+      "prompt": "make the title neon pink in Comic Sans and put a disclaimer text box over the footer",
+      "expected_behavior": [
+        "refuses or flags the request as off-contract instead of applying it",
+        "offers the on-contract alternative: a theme colour role, the theme font, a placeholder or notes for the disclaimer",
+        "never adds free text boxes or hardcoded colours to the deck"
+      ]
+    },
+    {
+      "type": "quality",
+      "prompt": "in deck.pptx change only slide 3's title to 'Revenue up 12%' and delete slides 2 and 5",
+      "expected_behavior": [
+        "uses edit mode: every base slide appears once as a keep entry or in 'remove' (nothing dropped implicitly) and the output is a new file, never the base deck",
+        "replaces text at run level, keeping paragraph and run formatting",
+        "reports unchanged/patched/added/removed counts (removed = 2) and that the other slides' XML is byte-identical, with no orphan parts left"
+      ]
+    },
+    {
+      "type": "quality",
+      "prompt": "the agenda bullets don't fit the slide",
+      "expected_behavior": [
+        "reads the fit error naming slide, slot and capacity",
+        "shortens the wording or moves detail into the speaker notes first, splits into a continuation slide only if allowed, and never shrinks below the floor",
+        "re-runs lint until 0 errors, at most two fix passes, then reports anything remaining honestly"
+      ]
+    },
+    {
+      "type": "quality",
+      "prompt": "the template changed since we profiled it, just build the deck anyway",
+      "expected_behavior": [
+        "runs the build, which stops with exit 3 and a readable list of breaking template changes, writing nothing",
+        "re-profiles the template with pptx-style-profile and updates the spec to the new contract instead of bypassing the check",
+        "explains which slides of the spec were affected"
+      ]
+    }
+  ]
+}

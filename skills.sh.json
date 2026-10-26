@@ -1,0 +1,11 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Decks that stay on-template",
+      "description": "Turn your PowerPoint template into a checkable style contract, then let agents build and edit native, editable decks that never leave it.",
+      "skills": ["pptx-style-profile", "pptx-style-build"]
+    }
+  ]
+}
