@@ -4,6 +4,6 @@
 # Dependabot (pip ecosystem) keeps these fresh.
 check-jsonschema==0.37.4
 ruff==0.15.10
-pre-commit==4.3.0
+pre-commit==4.7.0
 # Test-only: proves built decks open in python-pptx (the skills never import it).
 python-pptx==1.0.2
